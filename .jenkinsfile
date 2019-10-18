@@ -1,0 +1,55 @@
+pipeline
+{
+agent any
+stages
+{
+stage('Build')
+{
+steps
+{/* Put necessary commands for building here */
+sh "mvn clean"
+}
+}
+
+stage('Deploy to Shared-Test')
+{
+/* Put necessary commands for deployment here */
+steps{
+echo 'Deployed to Shared-Test'
+}
+}
+
+stage('Regression Test')
+{
+/* Put necessary commands for testing the program here */
+steps{
+sh "mvn test"
+}
+}
+
+stage('Deploy to UAT')
+{
+/* Put necessary commands for deployment here */
+steps{
+echo 'Deployed to Shared-Test'
+}
+}
+
+stage('Smoke Test')
+{
+/* Put necessary commands for testing the program here */
+steps{
+echo 'Tested on UAT'
+}
+}
+
+stage('Release')
+{
+/* Put necessary commands for release of product here */
+steps{
+echo 'Released to Production'
+}
+}
+
+}/* end of stages */
+}/* end of pipeline project */
