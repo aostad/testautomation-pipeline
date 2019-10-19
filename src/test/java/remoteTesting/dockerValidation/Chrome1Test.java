@@ -39,7 +39,7 @@ public class Chrome1Test {
 		URL url = new URL("http://localhost:4444/wd/hub"); 
 		RemoteWebDriver driver = new RemoteWebDriver(url, cap);
 		
-		driver.get("http://google.com");
+		driver.get("http://central1.com");
 		System.out.println(driver.getTitle());
 	}
 

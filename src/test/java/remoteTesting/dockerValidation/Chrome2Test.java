@@ -16,7 +16,7 @@ public class Chrome2Test {
 		URL url = new URL("http://localhost:4444/wd/hub"); 
 		RemoteWebDriver driver = new RemoteWebDriver(url, cap);
 		
-		driver.get("http://gmail.com");
+		driver.get("http://vancity.com");
 		System.out.println(driver.getTitle());
 
 	}
