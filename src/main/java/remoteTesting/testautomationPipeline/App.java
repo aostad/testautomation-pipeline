@@ -1,4 +1,4 @@
-package remoteTesting.dockerValidation;
+package remoteTesting.testautomationPipeline;
 
 /**
  * Hello world!

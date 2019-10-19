@@ -1,4 +1,4 @@
-package remoteTesting.dockerValidation;
+package remoteTesting.testautomationPipeline;
 
 import java.net.MalformedURLException;
 import java.net.URL;

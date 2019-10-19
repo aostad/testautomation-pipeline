@@ -1,4 +1,4 @@
-package remoteTesting.dockerValidation;
+package remoteTesting.testautomationPipeline;
 
 import java.io.File;
 import java.io.IOException;

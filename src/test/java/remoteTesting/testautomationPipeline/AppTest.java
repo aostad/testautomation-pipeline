@@ -1,4 +1,4 @@
-package remoteTesting.dockerValidation;
+package remoteTesting.testautomationPipeline;
 
 //import junit.framework.Test;
 //import junit.framework.TestCase;
