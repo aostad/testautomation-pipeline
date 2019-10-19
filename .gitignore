@@ -2,6 +2,12 @@ output.log
 test-output
 target
 
+
+### Intellij Idea ###
+.idea
+
+
+
 ### Eclipse ###
 
 .metadata
