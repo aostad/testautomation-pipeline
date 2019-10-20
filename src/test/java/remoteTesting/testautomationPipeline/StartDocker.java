@@ -21,9 +21,12 @@ public class StartDocker {
 		Thread.sleep(3000);
 		
 		while (System.currentTimeMillis() < stopNow) {
+			System.out.println("before flag");
 			if(flag) {
+				System.out.println("inside flag");
 				break;
 			}
+			System.out.println("after flag");
 			BufferedReader reader = new BufferedReader(new FileReader(logFile));
 			String currentLine = reader.readLine();
 			while (currentLine != null && !flag) {
