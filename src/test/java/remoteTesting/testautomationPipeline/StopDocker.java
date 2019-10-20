@@ -12,7 +12,7 @@ public class StopDocker {
 	public void stopFile() throws IOException, InterruptedException {
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("sh ./dockerdown.bat");
+		runtime.exec("sh dockerdown.bat");
 		String logFile = "output.log";
 		Calendar cal = Calendar.getInstance();
 		cal.add(Calendar.SECOND, 45);
