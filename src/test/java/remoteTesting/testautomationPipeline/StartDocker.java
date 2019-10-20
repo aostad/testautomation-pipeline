@@ -14,6 +14,7 @@ public class StartDocker {
 		Runtime runtime = Runtime.getRuntime();
 		runtime.exec("sh dockerup.bat");
 		String logFile = "output.log";
+		Runtime.getRuntime().exec("chmod 777 output.log");
 		Calendar cal = Calendar.getInstance();
 		cal.add(Calendar.SECOND, 45);
 		long stopNow = cal.getTimeInMillis();
