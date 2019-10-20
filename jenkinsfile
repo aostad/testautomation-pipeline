@@ -24,8 +24,8 @@ stage('Regression Test')
 {
 /* Put necessary commands for testing the program here */
 steps{
-/*sh "mvn test"*/
-echo "Regression Test"
+sh "mvn test"
+/*echo "Regression Test"*/
 }
 }
 
