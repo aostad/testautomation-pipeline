@@ -12,9 +12,9 @@ public class StartDocker {
 	public void startFile() throws IOException, InterruptedException {
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("sh dockerup.bat");
+		runtime.exec("sh dockerup.sh");
 		String logFile = "output.log";
-		Runtime.getRuntime().exec("chmod 777 output.log");
+		//Runtime.getRuntime().exec("chmod 777 output.log");
 		Calendar cal = Calendar.getInstance();
 		cal.add(Calendar.SECOND, 45);
 		long stopNow = cal.getTimeInMillis();
