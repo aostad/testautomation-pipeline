@@ -17,7 +17,7 @@ public class Chrome1Test {
 	public void startDocker() throws IOException, InterruptedException {
 		//delete the output.log file, if any
 		File fi = new File("output.log");
-		fi.canWrite();
+		Runtime.getRuntime().exec("chmod 777 output.log");
 		if (fi.delete()) {
 			System.out.println("output.log has been deleted successfully!");
 		}
