@@ -41,7 +41,6 @@ withMaven(
 
 }
 }
-}
 
 stage('Deploy to UAT')
 {
