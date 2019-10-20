@@ -7,7 +7,7 @@ stage('Build')
 {
 steps
 {/* Put necessary commands for building here */
-sh "mvn clean"
+mvn clean
 /*echo 'Start regression Test'*/
 }
 }
