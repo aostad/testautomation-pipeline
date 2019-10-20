@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testautomation-pipeline" />
+        <module name="testautomationpipeline" />
       </profile>
     </annotationProcessing>
   </component>
